@@ -1,0 +1,60 @@
+* {box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;}
+
+
+@font-face {
+    font-family: bebasneuebold;
+    src: url("../fonts/BebasNeue-Bold.ttf");
+    font-weight: bold;
+}
+
+main {width: 1480px;
+    margin: 0 auto;}
+
+.HEADINGS {font-family: 'bebasneuebold';
+        font-size: 96px;
+        padding: 40px 0px;
+        margin-left: 62px;}
+
+#FILM {margin-top: 120px;}
+
+nav {height: 160px;
+    padding: 0px 50px;}
+
+#navlist {float: right;
+          margin-top: 50px;}
+
+#icon {float: left;
+        margin-top: -5px;}
+
+#Autumn-Ambition-BW, #Whispering-Woods-BW {padding: 0px 9px;}
+
+#Pool-Table-BW {padding: 16px 8px 0px 8px;}
+
+#WCF-BW {padding: 8px 8px 0px 8px;}
+
+#The-Youth-Film-BW {padding: 8px 8px 0px 8px;}
+
+#ACS-BW {padding: 0px 8px 0px 8px;}
+
+#Grains-BW {padding: 0px 8px 0px 8px;}
+
+#Taxi-Driver-BW {padding: 0px 8px 0px 8px;}
+
+#Autumn-Ride-BW {padding: 16px 8px 0px 8px;}
+
+#Tomorrow-BW {padding: 16px 8px 0px 8px;}
+
+#Career-Poster-BW {padding: 16px 8px 0px 8px;}
+
+
+
+a {font-family: 'bebasneuebold';
+    font-size: 48px;
+    color:black;
+    text-decoration: none;
+    padding: 0px 15px;}
+
+header {text-align: center;
+        height: 592px;}
