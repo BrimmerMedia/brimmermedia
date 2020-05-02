@@ -141,7 +141,31 @@ header {display:none;}
 #Tomorrow-BW {width: 49%;
                 margin-left: 1%;}
 #Career-Poster-BW {width: 49%;}
+}
 
 
+@media only screen and (max-width:398px){
+ 
+#Autumn-Ambition-BW {width: 48%;
+                    margin-left: 1%;}
+#Whispering-Woods-BW {width: 48%;}
+ 
+#Pool-Table-BW {width: 48%;
+                margin-left: 1%;}
+#WCF-BW {width: 48%;}
 
+#ACS-BW {width: 48%;
+                margin-left: 1%;}
+#Grains-BW {width: 48%;}
+
+#Taxi-Driver-BW-2 {width: 48%;
+                margin-left: 1%;}
+#Autumn-Ride-BW {width: 48%;
+                  margin-left:0%;}
+
+#Tomorrow-BW {width: 48%;
+                margin-left: 1%;}
+#Career-Poster-BW {width: 48%;}
+    
+    
 }
