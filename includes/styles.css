@@ -116,7 +116,7 @@ hr {width:100%;
 #hamburger {display:inline;
         position: relative;
         right: 25px;
-        top: -50px;
+        top: -60px;
         float: right;}
 
 #hamburger:hover {cursor:pointer;}
@@ -163,6 +163,10 @@ header {display:none;}
       float:none;
       margin: -50px auto;
       pointer-events: none;}
+
+#iconanchor {display:block;
+            margin-top: 50px;
+            margin-bottom: 10px;}
       
 #FILM {margin-top: 0%;}
 
