@@ -2,59 +2,146 @@
     margin: 0px;
     padding: 0px;}
 
-
+html, body {max-width: 100%;
+            overflow-x: hidden;}
+    
+/* FONT FOR ALL HEADINGS */
 @font-face {
     font-family: bebasneuebold;
     src: url("../fonts/BebasNeue-Bold.ttf");
-    font-weight: bold;
-}
-
-main {width: 1480px;
-    margin: 0 auto;}
-
+    font-weight: bold;}
 .HEADINGS {font-family: 'bebasneuebold';
-        font-size: 96px;
-        padding: 40px 0px;
-        margin-left: 62px;}
-
-#FILM {margin-top: 120px;}
-
-nav {height: 160px;
-    padding: 0px 50px;}
-
-#navlist {float: right;
-          margin-top: 50px;}
-
-#icon {float: left;
-        margin-top: -5px;}
-
-#Autumn-Ambition-BW, #Whispering-Woods-BW {padding: 0px 9px;}
-
-#Pool-Table-BW {padding: 16px 8px 0px 8px;}
-
-#WCF-BW {padding: 8px 8px 0px 8px;}
-
-#The-Youth-Film-BW {padding: 8px 8px 0px 8px;}
-
-#ACS-BW {padding: 0px 8px 0px 8px;}
-
-#Grains-BW {padding: 0px 8px 0px 8px;}
-
-#Taxi-Driver-BW {padding: 0px 8px 0px 8px;}
-
-#Autumn-Ride-BW {padding: 16px 8px 0px 8px;}
-
-#Tomorrow-BW {padding: 16px 8px 0px 8px;}
-
-#Career-Poster-BW {padding: 16px 8px 0px 8px;}
-
-
-
+          font-size: 96px;
+          margin-top:2%;
+          margin-left: 4%;
+          margin-bottom:2%;}
 a {font-family: 'bebasneuebold';
     font-size: 48px;
     color:black;
     text-decoration: none;
     padding: 0px 15px;}
+    
+/*NAVIGATION ON EVERY PAGE */        
+nav {height: 160px;
+    padding: 0px 30px;
+    max-width:1460px;
+    margin: 0 auto;}
+    
+#navlist {float: right;
+          margin-top: 50px;}
+#icon {float: left;
+        margin-top: -5px;}
+        
+#maxnav {max-width:4000px;}
+/*PUT ALL CONTENT IN THIS AREA*/
+header {margin: 0 auto;}
 
-header {text-align: center;
-        height: 592px;}
+video {display:block;
+        width: 100%;
+        margin: 0px auto;
+        padding: 0 0;
+        max-width: 1920px;}       
+
+main {max-width: 1460px;
+      margin: 0 auto;}
+
+/*HOME PAGE THUMBNAILS */
+
+#Taxi-Driver-BW-2 {display:none;}
+
+#Autumn-Ambition-BW {margin-left: 0px;
+                    padding-right: .18%;
+                    width: 49.82%;}
+#Whispering-Woods-BW {padding-left: .18%;
+                    width: 49.82%;
+                    margin-right: 0px;
+                    padding-right: 0px;}
+      
+#Pool-Table-BW {width: 33.093%;
+                padding-right:.18%;
+                margin-top:.18%;}
+#WCF-BW {width: 33.093%;
+        padding-left:.18%;
+        padding-right:.18%;}
+#The-Youth-Film-BW {width: 33.093%;
+                    padding-left:.18%;}
+                    
+                    
+#ACS-BW {width: 33.093%;
+         padding-right:.18%;}
+#Grains-BW {width: 33.093%;
+            padding-left:.18%;
+            padding-right:.18%;}
+#Taxi-Driver-BW {width: 33.093%;
+                padding-left:.18%;}
+            
+#Autumn-Ride-BW {width: 33.093%;
+                padding-right:.18%;
+                margin-top:.18%;}
+#Tomorrow-BW {width: 33.093%;
+        padding-left:.18%;
+        padding-right:.18%;}
+#Career-Poster-BW {width: 33.093%;
+                    padding-left:.18%;}
+            
+hr {width:100%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    border-top: 3px solid #C4C4C4;}
+
+@media only screen and (max-width:1125px) {
+
+.HEADINGS {font-size: 64px;}
+
+#Autumn-Ambition-BW {width: 49%;
+                    margin-left: 1%;}
+#Whispering-Woods-BW {width: 49%;}
+
+#Pool-Table-BW, #WCF-BW, #The-Youth-Film-BW, #ACS-BW, #Grains-BW, #Taxi-Driver-BW, #Autumn-Ride-BW, #Tomorrow-BW, #Career-Poster-BW {width: 32.5%;}
+
+#Pool-Table-BW, #ACS-BW, #Autumn-Ride-BW {margin-left: 1%;}
+
+#icon {margin-right: 0px;
+      padding-right: 0px;}
+      
+#HOME_BUTTON {margin-left: 0px;
+            padding-left: 0px;}
+}
+
+@media only screen and (max-width:767px){
+  
+#Taxi-Driver-BW-2 {display:inline;}
+#Taxi-Driver-BW {display:none;}  
+
+header {display:none;}
+#The-Youth-Film-BW {display: none;}
+#navlist {display:none;}
+
+#icon {display:block;
+      float:none;
+      margin: -50px auto;}
+      
+#FILM {margin-top: 0%;}
+
+.HEADINGS {font-size: 40px;}
+
+#Pool-Table-BW {width: 49%;
+                margin-left: 1%;}
+#WCF-BW {width: 49%;}
+
+#ACS-BW {width: 49%;
+                margin-left: 1%;}
+#Grains-BW {width: 49%;}
+
+#Taxi-Driver-BW-2 {width: 49%;
+                margin-left: 1%;}
+#Autumn-Ride-BW {width: 49%;
+                  margin-left:0%;}
+
+#Tomorrow-BW {width: 49%;
+                margin-left: 1%;}
+#Career-Poster-BW {width: 49%;}
+
+
+
+}
