@@ -5,19 +5,19 @@
 html, body {max-width: 100%;
             overflow-x: hidden;}
 
-body:after{
+body:before{
  display:none;
- content: url("../images/Autumn-Ambition-Color.png")
- url("../images/Whispering-Woods-Color.png")
- url("../images/Pool-Table-Color.png")
- url("../images/WCF-Color.png")
- url("../images/The-Youth-Film-Color.png")
- url("../images/ACS-Color.png")
- url("../images/Grains-Color.png")
- url("../images/Taxi-Driver-Color.png")
- url("../images/Autumn-Ride-Color.png")
- url("../images/Tomorrow-Color.png")
- url("../images/Career-Poster-Thumbnail-Color.png");}
+ content: url(../images/Autumn-Ambition-Color.png)
+ url(../images/Whispering-Woods-Color.png)
+ url(../images/Pool-Table-Color.png)
+ url(../images/WCF-Color.png)
+ url(../images/The-Youth-Film-Color.png)
+ url(../images/ACS-Color.png)
+ url(../images/Grains-Color.png)
+ url(../images/Taxi-Driver-Color.png)
+ url(../images/Autumn-Ride-Color.png)
+ url(../images/Tomorrow-Color.png)
+ url(../images/Career-Poster-Thumbnail-Color.png);}
 
 /* FONT FOR ALL HEADINGS */
 @font-face {
