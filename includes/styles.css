@@ -5,20 +5,6 @@
 html, body {max-width: 100%;
             overflow-x: hidden;}
 
-body:before{
- display:none;
- content: url(../images/Autumn-Ambition-Color.png)
- url(../images/Whispering-Woods-Color.png)
- url(../images/Pool-Table-Color.png)
- url(../images/WCF-Color.png)
- url(../images/The-Youth-Film-Color.png)
- url(../images/ACS-Color.png)
- url(../images/Grains-Color.png)
- url(../images/Taxi-Driver-Color.png)
- url(../images/Autumn-Ride-Color.png)
- url(../images/Tomorrow-Color.png)
- url(../images/Career-Poster-Thumbnail-Color.png);}
-
 /* FONT FOR ALL HEADINGS */
 @font-face {
     font-family: bebasneuebold;
@@ -77,21 +63,37 @@ main {max-width: 1460px;
                     padding-right: .18%;
                     width: 49.82%;
                     display:inline;}
+#Autumn-Ambition-BW:before {content: url("../images/Autumn-Ambition-Color.png");
+                            visibility:hidden;
+                            width:0;
+                            height:0;}                      
 #Autumn-Ambition-BW:hover {content: url("../images/Autumn-Ambition-Color.png")}         
 
 #Whispering-Woods-BW {padding-left: .18%;
                     width: 49.82%;
                     margin-right: 0px;
                     padding-right: 0px;}
+#Whispering-Woods-BW:before {content: url("../images/Whispering-Woods-Color.png");
+                            visibility:hidden;
+                            width:0;
+                            height:0;}       
 #Whispering-Woods-BW:hover {content:url("../images/Whispering-Woods-Color.png")}    
       
 #Pool-Table-BW {width: 33.093%;
                 padding-right:.18%;
                 margin-top:.18%;}
+#Pool-Table-BW:before {content: url("../images/Pool-Table-Color.png");
+                            visibility:hidden;
+                            width:0;
+                            height:0;}       
 #Pool-Table-BW:hover {content:url("../images/Pool-Table-Color.png")}    
 #WCF-BW {width: 33.093%;
         padding-left:.18%;
         padding-right:.18%;}
+#WCF-BW:before {content: url("../images/WCF-Color.png");
+                            visibility:hidden;
+                            width:0;
+                            height:0;}    
 #WCF-BW:hover {content:url("../images/WCF-Color.png")}    
 #The-Youth-Film-BW {width: 33.093%;
                     padding-left:.18%;}
