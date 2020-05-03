@@ -30,6 +30,9 @@ nav {height: 160px;
     
 #navlist {float: right;
           margin-top: 50px;}
+          
+a:hover {color: lightgrey;}
+          
 #icon {float: left;
         margin-top: -5px;}
 #hamburger {display:none;}
@@ -50,47 +53,114 @@ main {max-width: 1460px;
 
 /*HOME PAGE THUMBNAILS */
 
+.thumbnail-anchor {padding:0px;
+                    margin: 0px;
+                    font-size: 0px;}
+
 #Taxi-Driver-BW-2 {display:none;}
 
 #Autumn-Ambition-BW {margin-left: 0px;
                     padding-right: .18%;
-                    width: 49.82%;}
+                    width: 49.82%;
+                    display:inline;}
+#Autumn-Ambition-BW:hover {content:url("../images/Autumn-Ambition-Color.png")}         
+
 #Whispering-Woods-BW {padding-left: .18%;
                     width: 49.82%;
                     margin-right: 0px;
                     padding-right: 0px;}
+#Whispering-Woods-BW:hover {content:url("../images/Whispering-Woods-Color.png")}    
       
 #Pool-Table-BW {width: 33.093%;
                 padding-right:.18%;
                 margin-top:.18%;}
+#Pool-Table-BW:hover {content:url("../images/Pool-Table-Color.png")}    
 #WCF-BW {width: 33.093%;
         padding-left:.18%;
         padding-right:.18%;}
+#WCF-BW:hover {content:url("../images/WCF-Color.png")}    
 #The-Youth-Film-BW {width: 33.093%;
                     padding-left:.18%;}
-                    
+#The-Youth-Film-BW:hover {content:url("../images/The-Youth-Film-Color.png")} 
                     
 #ACS-BW {width: 33.093%;
          padding-right:.18%;}
+#ACS-BW:hover {content:url("../images/ACS-Color.png")} 
 #Grains-BW {width: 33.093%;
             padding-left:.18%;
             padding-right:.18%;}
+#Grains-BW:hover {content:url("../images/Grains-Color.png")} 
 #Taxi-Driver-BW {width: 33.093%;
                 padding-left:.18%;}
-            
+#Taxi-Driver-BW:hover {content:url("../images/Taxi-Driver-Color.png")}
+
 #Autumn-Ride-BW {width: 33.093%;
                 padding-right:.18%;
                 margin-top:.18%;}
+#Autumn-Ride-BW:hover {content:url("../images/Autumn-Ride-Color.png");}   
 #Tomorrow-BW {width: 33.093%;
         padding-left:.18%;
         padding-right:.18%;}
+#Tomorrow-BW:hover {content:url("../images/Tomorrow-Color.png");}   
 #Career-Poster-BW {width: 33.093%;
                     padding-left:.18%;}
+#Career-Poster-BW:hover {content:url("../images/Career-Poster-Thumbnail-Color.png");}  
             
 hr {width:100%;
     margin-top:5%;
-    margin-bottom: 5%;
+    margin-bottom: 2.5%;
     border-top: 3px solid #C4C4C4;}
+
+/*FILM PAGES */
+
+
+.filmcontainer {width:100%;
+                height: 0;
+                padding-bottom: 56.25%;
+                position: relative;}
+
+.filmposter {margin-top:5%;
+            margin-left:5%;}
+
+.filmcontainer iframe {position:absolute;
+                        width: 100%;
+                        height: 100%;}
+.filmtitle {font-size: 120px;
+            font-family:bebasneuebold;
+            float:right;
+            margin-top:7%;
+            margin-right:5%;}
+
+.filmsubtitle {display:inline;
+            font-size: 48px;
+            font-family:bebasneuebold;
+            float:right;}
+
+#autumnambitiontext {float:left;}
+
+/*FOOTER */
+
+footer {width:100%;
+max-width:1440px;}
+
+.footercontent {margin: 0 auto;}
+
+.footerlink {color:black;
+            font-size: 35px;
+            margin-bottom:50px;
+            margin-left: 20px;
+            padding: 0 10px;
+            float:left;}
+
+.footersocial {float:right;
+                padding-right: 15px;
+                padding-bottom:75px;
+                margin-right: 20px;}
+
+
+
+
+
 
 @media only screen and (max-width:1125px) {
 
@@ -112,7 +182,19 @@ hr {width:100%;
 }
 
 @media only screen and (max-width:767px){
-  
+
+.footerlink {display:none;}
+
+.footersocial {float:left;
+                padding-right: 5px;
+                margin-left: 20px;
+                width: 60px;
+                height: 60px;
+                margin-bottom:20px;}
+                
+.footersocial img  {width: 50px;
+                    height: 50px;}
+
 #hamburger {display:inline;
         position: relative;
         right: 25px;
@@ -153,6 +235,7 @@ li {padding: 13px 0px;
 
         
 #Taxi-Driver-BW-2 {display:inline;}
+#Taxi-Driver-BW-2:hover {content:url("../images/Taxi-Driver-Color.png")}
 #Taxi-Driver-BW {display:none;}  
 
 header {display:none;}
@@ -177,7 +260,7 @@ header {display:none;}
 #WCF-BW {width: 49%;}
 
 #ACS-BW {width: 49%;
-                margin-left: 1%;}
+         margin-left: 1%;}
 #Grains-BW {width: 49%;}
 
 #Taxi-Driver-BW-2 {width: 49%;
@@ -193,6 +276,11 @@ header {display:none;}
 
 @media only screen and (max-width:398px){
 
+.footersocial img {width: 43px;
+                    height: 43px;}
+                    
+.footersocial {margin: 0 auto;}
+                    
 #hamburger {display:inline;
         position: relative;
         right: 20px;
