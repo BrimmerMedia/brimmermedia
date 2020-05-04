@@ -277,7 +277,20 @@ li {padding: 13px 0px;
 .hiddenbutton {font-size: 41px;
                 padding: 0px 0px;}
 
-        
+#Autumn-Ambition-BW {content: url("../images/Autumn-Ambition-Color.png");}
+#Whispering-Woods-BW {content: url("../images/Whispering-Woods-Color.png");}
+#Pool-Table-BW {content: url("../images/Pool-Table-Color.png");}
+#WCF-BW {content: url("../images/WCF-Color.png");}
+
+#ACS-BW {content: url("../images/ACS-Color.png");}
+#Grains-BW {content: url("../images/Grains-Color.png");}
+#Taxi-Driver-BW-2 {content: url("../images/Taxi-Driver-Color.png");}
+#Autumn-Ride-BW {content: url("../images/Autumn-Ride-Color.png");}
+#Tomorrow-BW {content: url("../images/Tomorrow-Color.png");}
+#Career-Poster-BW {content: url("../images/Career-Poster-Thumbnail-Color.png");}
+
+
+
 #Taxi-Driver-BW-2 {display:inline;}
 #Taxi-Driver-BW-2:hover {content:url("../images/Taxi-Driver-Color.png")}
 #Taxi-Driver-BW {display:none;}  
