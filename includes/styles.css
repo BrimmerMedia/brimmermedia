@@ -67,8 +67,7 @@ main {max-width: 1460px;
                             visibility:hidden;
                             width:0;
                             height:0;}                      
-#Autumn-Ambition-BW:hover {content: url("../images/Autumn-Ambition-Color.png")}         
-
+#Autumn-Ambition-BW:hover {content: url("../images/Autumn-Ambition-Color.png");}         
 #Whispering-Woods-BW {padding-left: .18%;
                     width: 49.82%;
                     margin-right: 0px;
@@ -77,7 +76,7 @@ main {max-width: 1460px;
                             visibility:hidden;
                             width:0;
                             height:0;}       
-#Whispering-Woods-BW:hover {content:url("../images/Whispering-Woods-Color.png")}    
+#Whispering-Woods-BW:hover {content:url("../images/Whispering-Woods-Color.png");}    
       
 #Pool-Table-BW {width: 33.093%;
                 padding-right:.18%;
@@ -86,7 +85,7 @@ main {max-width: 1460px;
                             visibility:hidden;
                             width:0;
                             height:0;}       
-#Pool-Table-BW:hover {content:url("../images/Pool-Table-Color.png")}    
+#Pool-Table-BW:hover {content:url("../images/Pool-Table-Color.png");}    
 #WCF-BW {width: 33.093%;
         padding-left:.18%;
         padding-right:.18%;}
@@ -94,32 +93,61 @@ main {max-width: 1460px;
                             visibility:hidden;
                             width:0;
                             height:0;}    
-#WCF-BW:hover {content:url("../images/WCF-Color.png")}    
+#WCF-BW:hover {content:url("../images/WCF-Color.png");}
+
 #The-Youth-Film-BW {width: 33.093%;
                     padding-left:.18%;}
-#The-Youth-Film-BW:hover {content:url("../images/The-Youth-Film-Color.png")} 
+#The-Youth-Film-BW:before {content: url("../images/The-Youth-Film-Color.png");
+                            visibility:hidden;
+                            width:0;
+                            height:0;}
+#The-Youth-Film-BW:hover {content:url("../images/The-Youth-Film-Color.png");} 
                     
 #ACS-BW {width: 33.093%;
          padding-right:.18%;}
-#ACS-BW:hover {content:url("../images/ACS-Color.png")} 
+#ACS-BW:before {content: url("../images/ACS-Color.png");
+                            visibility:hidden;
+                            width:0;
+                            height:0;}
+#ACS-BW:hover {content:url("../images/ACS-Color.png");} 
 #Grains-BW {width: 33.093%;
             padding-left:.18%;
             padding-right:.18%;}
-#Grains-BW:hover {content:url("../images/Grains-Color.png")} 
+#Grains-BW:before {content: url("../images/Grains-Color.png");
+                            visibility:hidden;
+                            width:0;
+                            height:0;}
+#Grains-BW:hover {content:url("../images/Grains-Color.png");} 
 #Taxi-Driver-BW {width: 33.093%;
                 padding-left:.18%;}
-#Taxi-Driver-BW:hover {content:url("../images/Taxi-Driver-Color.png")}
+#Taxi-Driver-BW:before {content: url("../images/Taxi-Driver-Color.png");
+                            visibility:hidden;
+                            width:0;
+                            height:0;}
+#Taxi-Driver-BW:hover {content:url("../images/Taxi-Driver-Color.png");}
 
 #Autumn-Ride-BW {width: 33.093%;
                 padding-right:.18%;
                 margin-top:.18%;}
+#Autumn-Ride-BW:before {content: url("../images/Autumn-Ride-Color.png");
+                            visibility:hidden;
+                            width:0;
+                            height:0;}
 #Autumn-Ride-BW:hover {content:url("../images/Autumn-Ride-Color.png");}   
 #Tomorrow-BW {width: 33.093%;
         padding-left:.18%;
         padding-right:.18%;}
-#Tomorrow-BW:hover {content:url("../images/Tomorrow-Color.png");}   
+#Tomorrow-BW:before {content: url("../images/Tomorrow-Color.png");
+                            visibility:hidden;
+                            width:0;
+                            height:0;}
+#Tomorrow-BW:hover {content:url("../images/Tomorrow-Color.png");}
 #Career-Poster-BW {width: 33.093%;
                     padding-left:.18%;}
+#Career-Poster-BW:before {content: url("../images/Career-Poster-Color.png");
+                            visibility:hidden;
+                            width:0;
+                            height:0;}
 #Career-Poster-BW:hover {content:url("../images/Career-Poster-Thumbnail-Color.png");}  
             
 hr {width:100%;
