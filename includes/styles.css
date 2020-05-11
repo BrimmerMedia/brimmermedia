@@ -10,6 +10,9 @@ html, body {max-width: 100%;
     font-family: bebasneuebold;
     src: url("../fonts/BebasNeue-Bold.ttf");
     font-weight: bold;}
+@font-face {
+    font-family: bebasneuelight;
+    src: url("../fonts/BebasNeue-Light.ttf");}   
 .HEADINGS {font-family: 'bebasneuebold';
           font-size: 96px;
           margin-top:2%;
@@ -144,7 +147,7 @@ main {max-width: 1460px;
 #Tomorrow-BW:hover {content:url("../images/Tomorrow-Color.png");}
 #Career-Poster-BW {width: 33.093%;
                     padding-left:.18%;}
-#Career-Poster-BW:before {content: url("../images/Career-Poster-Color.png");
+#Career-Poster-BW:before {content: url("../images/Career-Poster-Thumbnail-Color.png");
                             visibility:hidden;
                             width:0;
                             height:0;}
@@ -157,31 +160,43 @@ hr {width:100%;
 
 /*FILM PAGES */
 
-
 .filmcontainer {width:100%;
                 height: 0;
                 padding-bottom: 56.25%;
                 position: relative;}
 
-.filmposter {margin-top:5%;
-            margin-left:5%;}
+#filmtextcontainer {display:inline-block;
+            float:right;
+            width:53%;
+            margin-top:50px;
+            margin-right:25px;}
+
+#paragraphtext {display:inline-block;
+                font-size: 2vw;
+                margin-top:25px;}
 
 .filmcontainer iframe {position:absolute;
                         width: 100%;
                         height: 100%;}
-.filmtitle {font-size: 120px;
-            font-family:bebasneuebold;
-            float:right;
-            margin-top:7%;
-            margin-right:5%;}
+                        
+.filmposter {float:left;
+            width: 35%;
+            margin-top: 75px;
+            margin-bottom: 75px;
+            margin-left: 25px;
+            margin-right: 25px;}
 
-.filmsubtitle {display:inline;
-            font-size: 48px;
+.filmtitle {font-size: 9vw;
             font-family:bebasneuebold;
             float:right;}
 
-#autumnambitiontext {float:left;}
+.filmsubtitle {font-size: 4vw;
+            font-family:bebasneuelight;
+            float:right;
+            letter-spacing: 0.1em;
+            margin-top:-20px;}
 
+#whisperingwoodstext {font-size:8vw;}
 /*FOOTER */
 
 footer {width:100%;
@@ -204,7 +219,13 @@ max-width:1440px;}
 
 
 
-
+@media only screen and (min-width:1125px) {
+ 
+ .filmtitle {font-size: 104px;}
+ .filmsubtitle {font-size: 50px;}
+ #paragraphtext {font-size:24px;}
+ #whisperingwoodstext {font-size:97px;}
+}
 
 @media only screen and (max-width:1125px) {
 
@@ -227,6 +248,18 @@ max-width:1440px;}
 
 @media only screen and (max-width:767px){
 
+.filmtitle, .filmsubtitle {display:none;}
+
+#paragraphtext {display:block;
+font-size: 18px;
+margin-top: -30px;
+margin-bottom: 40px;}
+
+#filmtextcontainer {display:block;
+float:none; width: 80%;
+margin-left: 10%;}
+
+.filmposter {display:none;}
 .footerlink {display:none;}
 
 .footersocial {float:left;
