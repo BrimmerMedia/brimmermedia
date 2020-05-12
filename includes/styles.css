@@ -228,6 +228,19 @@ hr {width:100%;
 
 #filmtitleshboom  {font-size:8vw;}
 
+#WCF-client, #ACS-client {display:block;
+                        margin: 0 auto;
+                        width: 65%;}
+            
+#email {text-align: center;
+        font-family: bebasneuebold;
+        font-size: 5vw;
+        margin-top: 0px;}
+
+
+                    
+    
+
 /*FOOTER */
 
 footer {width:100%;
@@ -263,6 +276,8 @@ max-width:1440px;}
  #whisperingwoodstext {font-size:97px;}
  #filmtitleshboom {font-size: 110px;}
  #autumnridesubtitle {font-size: 45px;}
+ 
+ #email {font-size: 50px;}
 }
 
 @media only screen and (max-width:1125px) {
@@ -291,6 +306,8 @@ max-width:1440px;}
 .filmtitle, .filmsubtitle {display:none;}
 
 .filmtitlealt, .filmsubtitlealt {display:none;}
+
+#WCF-client, #ACS-client {margin-top: -30px;}
 
 #autumnridetitle {display:block;}
 #autumnridesubtitle {display:none;}
