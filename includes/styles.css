@@ -196,7 +196,38 @@ hr {width:100%;
             letter-spacing: 0.1em;
             margin-top:-20px;}
 
+.filmaltimages {display: inline-block;
+               width:40%;}
+.filmposteralt {display: block;
+               width: 100%;
+               margin-top:50px;
+               margin-left: 50px;}
+#filmtextcontaineralt {display:inline-block;
+                         width: 47%;
+                         margin-left: 0px;
+                         margin-right: 30px;
+                         float:right;
+                         margin-top:25px;
+                         margin-left:65px;}
+                         
+.filmtitlealt {font-size: 6.5vw;
+            font-family:bebasneuebold;
+            float:right;}
+
+.filmsubtitlealt {font-size: 3vw;
+            font-family:bebasneuelight;
+            float:right;
+            letter-spacing: 0.1em;
+            margin-top:-20px;}
+            
+#paragraphtextalt {display:inline-block;
+                font-size: 1.7vw;
+                margin-top:25px;}
+            
 #whisperingwoodstext {font-size:8vw;}
+
+#filmtitleshboom  {font-size:8vw;}
+
 /*FOOTER */
 
 footer {width:100%;
@@ -224,10 +255,19 @@ max-width:1440px;}
  .filmtitle {font-size: 104px;}
  .filmsubtitle {font-size: 50px;}
  #paragraphtext {font-size:24px;}
+ 
+  .filmtitlealt {font-size: 95px;}
+ .filmsubtitlealt {font-size: 50px;}
+ #paragraphtextalt {font-size:21px;}
+ 
  #whisperingwoodstext {font-size:97px;}
+ #filmtitleshboom {font-size: 110px;}
+ #autumnridesubtitle {font-size: 45px;}
 }
 
 @media only screen and (max-width:1125px) {
+
+.filmsubtitlealt {margin-top:-10px;}
 
 .HEADINGS {font-size: 64px;}
 
@@ -250,16 +290,52 @@ max-width:1440px;}
 
 .filmtitle, .filmsubtitle {display:none;}
 
+.filmtitlealt, .filmsubtitlealt {display:none;}
+
+#autumnridetitle {display:block;}
+#autumnridesubtitle {display:none;}
+#autumnrideimage1 {display:block;
+                    width:80%;
+                    margin: 0 auto;
+                    margin-bottom: 25px;}
+#autumnrideimage2 {display:block;
+                    width:80%;
+                    margin: 0 auto;}
+#autumnrideimages {width:100%;}
+.filmtextcontaineralt {width:100%;}
+#autumnridetitle {margin: 0 auto;
+                font-size: 14vw;
+                text-align: center;
+                float: none;}
+
+#taxidriverposter {display:block;
+                    width: 80%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    margin-bottom: 2%;
+                    margin-top: -40px;}
+
 #paragraphtext {display:block;
 font-size: 18px;
 margin-top: -30px;
 margin-bottom: 40px;}
+
+#paragraphtextalt {display:block;
+font-size: 18px;
+margin-top: -20px;
+margin-bottom: 40px;}
+
+#filmtextcontaineralt {display:block;
+float:none; width: 80%;
+margin-left: 10%;}
 
 #filmtextcontainer {display:block;
 float:none; width: 80%;
 margin-left: 10%;}
 
 .filmposter {display:none;}
+.filmposteralt {display:none;}
+
 .footerlink {display:none;}
 
 .footersocial {float:left;
