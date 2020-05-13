@@ -307,7 +307,8 @@ max-width:1440px;}
 
 .filmtitlealt, .filmsubtitlealt {display:none;}
 
-#WCF-client, #ACS-client {margin-top: -30px;}
+#WCF-client, #ACS-client {margin-top: -30px;
+                            width: 85%;}
 
 #autumnridetitle {display:block;}
 #autumnridesubtitle {display:none;}
