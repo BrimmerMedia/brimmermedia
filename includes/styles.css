@@ -232,10 +232,10 @@ hr {width:100%;
 
 #contact1, #contact2, #contact3, #contact4, #contact5, #contact6, #contact7, #contact8, #contact9, #contact10 {padding: 0px;}
 
-#contact1 {padding-left: .7%;}
+#contact1 {margin-left: 1.5%;}
 
 .contactimages {width: 9.2%;
-                margin-bottom:27px;}
+                margin-bottom:1.5%;}
 
 #contacttext {float:left;
             width: 35%;
@@ -309,7 +309,7 @@ max-width:1440px;}
 
 .contactimages {width: 8.5%;}
 
-#contact1 {padding-left: 3%;}
+#contact1 {margin-left: 3%;}
 
 #contact10 {padding-right: 3%;}
 
