@@ -75,11 +75,11 @@ main {max-width: 1460px;
                     width: 49.82%;
                     margin-right: 0px;
                     padding-right: 0px;}
-#Whispering-Woods-BW:before {content: url("../images/Whispering-Woods-Color.png");
+#Whispering-Woods-BW:before {content: url("../images/Analog-Color.jpg");
                             visibility:hidden;
                             width:0;
                             height:0;}       
-#Whispering-Woods-BW:hover {content:url("../images/Whispering-Woods-Color.png");}    
+#Whispering-Woods-BW:hover {content:url("../images/Analog-Color.jpg");}    
       
 #Pool-Table-BW {width: 33.093%;
                 padding-right:.18%;
@@ -100,11 +100,11 @@ main {max-width: 1460px;
 
 #The-Youth-Film-BW {width: 33.093%;
                     padding-left:.18%;}
-#The-Youth-Film-BW:before {content: url("../images/The-Youth-Film-Color.png");
+#The-Youth-Film-BW:before {content: url("../images/The-Youth-Film-Color.jpg");
                             visibility:hidden;
                             width:0;
                             height:0;}
-#The-Youth-Film-BW:hover {content:url("../images/The-Youth-Film-Color.png");} 
+#The-Youth-Film-BW:hover {content:url("../images/The-Youth-Film-Color.jpg");} 
                     
 #ACS-BW {width: 33.093%;
          padding-right:.18%;}
@@ -460,7 +460,7 @@ li {padding: 13px 0px;
                 padding: 0px 0px;}
 
 #Autumn-Ambition-BW {content: url("../images/Autumn-Ambition-Color.png");}
-#Whispering-Woods-BW {content: url("../images/Whispering-Woods-Color.png");}
+#Whispering-Woods-BW {content: url("../images/Analog-Color.jpg");}
 #Pool-Table-BW {content: url("../images/Pool-Table-Color.png");}
 #WCF-BW {content: url("../images/WCF-Color.png");}
 
